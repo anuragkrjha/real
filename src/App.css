@@ -1,0 +1,150 @@
+.nav{
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: space-around;
+  background-color:rgba(133, 190, 212, 0.724);
+}
+.nav ul{
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: space-around;
+}
+.box1{
+  width:500px;
+}
+.so{
+  font-size:70px;
+  width:500px;
+  margin-top:40px;
+}
+.box2{
+  font-size:20px;
+
+  margin-left:80px;
+  align-items:center;
+}
+h1{
+  margin-left:40px;
+}
+.navi{
+  float:right;
+  margin-left:420px;
+}
+.bm{
+  background-color:rgba(133, 190, 212, 0.724);
+}
+.boxc{
+  float:right;
+  border:outset;
+}
+.boxb{
+  position:absolute;
+  top:330px;
+  right:0;
+  border:outset;
+}
+.boxa{
+  border:outset;
+}
+.boxd{
+  border:outset;
+}
+.l{
+  background-color:rgba(133, 190, 212, 0.724);
+  height:300px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  font-size:x-large
+}
+.limks{
+  text-decoration:none;
+}
+.button{
+  background-color:rgb(170, 118, 207);
+  border:none;
+  color:black;
+  padding:10px 20px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  margin-left:40px;
+
+  cursor:cell;
+  border-radius: 16px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(133, 190, 212, 0.724);
+  }
+  .navi{
+    display:none;
+  }
+  .so{
+    width:100%;
+    margin-left:100px;
+  }
+  .bm{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;;
+  }
+  .boxa{
+    width:100%;
+    height:100%;
+    border:none
+  }
+  .box1{
+    width:150%;
+    height:100%;
+  }
+ 
+  img{
+    width:140%;
+    margin-top:60px;
+  }
+.boxb{
+  margin-top:830px;
+  border:none;
+}
+  .boxc{
+   margin-top:940px;
+   border:none;
+  }
+  .boxd{
+    display:none;
+  }
+  p{
+    font-size: 40px;
+    display:inline-block;
+  }
+  .button{
+    font-size:30px;
+    height:150%;
+  }
+  .l{
+    display:inline-block
+  }
+  .right{
+    width:150%;
+    margin-left:70px;
+  }
+  h2{
+    font-size:60px;
+    text-align:center;
+  }
+  .la{
+    display:none;
+  }
+  .limks{
+    font-size:50px;
+
+    text-align: center;
+    text-decoration:none;
+  }
+  .limks ul{
+    list-style-type:none;
+  }
+}
